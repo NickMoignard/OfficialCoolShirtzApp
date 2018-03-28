@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D5089C96206B730700D2DC3E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5089C95206B730700D2DC3E /* AppDelegate.swift */; };
+		D5089C98206B730700D2DC3E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5089C97206B730700D2DC3E /* ViewController.swift */; };
+		D5089C9B206B730700D2DC3E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5089C99206B730700D2DC3E /* Main.storyboard */; };
+		D5089C9D206B730700D2DC3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5089C9C206B730700D2DC3E /* Assets.xcassets */; };
+		D5089CA0206B730700D2DC3E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5089C9E206B730700D2DC3E /* LaunchScreen.storyboard */; };
+		D5089CAB206B730700D2DC3E /* CoolShirtzTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5089CAA206B730700D2DC3E /* CoolShirtzTests.swift */; };
+		D5089CB6206B730700D2DC3E /* CoolShirtzUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5089CB5206B730700D2DC3E /* CoolShirtzUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D5089CA7206B730700D2DC3E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5089C8A206B730700D2DC3E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5089C91206B730700D2DC3E;
+			remoteInfo = CoolShirtz;
+		};
+		D5089CB2206B730700D2DC3E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5089C8A206B730700D2DC3E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5089C91206B730700D2DC3E;
+			remoteInfo = CoolShirtz;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D5089C92206B730700D2DC3E /* CoolShirtz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoolShirtz.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5089C95206B730700D2DC3E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D5089C97206B730700D2DC3E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D5089C9A206B730700D2DC3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D5089C9C206B730700D2DC3E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D5089C9F206B730700D2DC3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D5089CA1206B730700D2DC3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5089CA6206B730700D2DC3E /* CoolShirtzTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoolShirtzTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5089CAA206B730700D2DC3E /* CoolShirtzTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoolShirtzTests.swift; sourceTree = "<group>"; };
+		D5089CAC206B730700D2DC3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5089CB1206B730700D2DC3E /* CoolShirtzUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoolShirtzUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5089CB5206B730700D2DC3E /* CoolShirtzUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoolShirtzUITests.swift; sourceTree = "<group>"; };
+		D5089CB7206B730700D2DC3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D5089C8F206B730700D2DC3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5089CA3206B730700D2DC3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5089CAE206B730700D2DC3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D5089C89206B730700D2DC3E = {
+			isa = PBXGroup;
+			children = (
+				D5089C94206B730700D2DC3E /* CoolShirtz */,
+				D5089CA9206B730700D2DC3E /* CoolShirtzTests */,
+				D5089CB4206B730700D2DC3E /* CoolShirtzUITests */,
+				D5089C93206B730700D2DC3E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D5089C93206B730700D2DC3E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D5089C92206B730700D2DC3E /* CoolShirtz.app */,
+				D5089CA6206B730700D2DC3E /* CoolShirtzTests.xctest */,
+				D5089CB1206B730700D2DC3E /* CoolShirtzUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D5089C94206B730700D2DC3E /* CoolShirtz */ = {
+			isa = PBXGroup;
+			children = (
+				D5089C95206B730700D2DC3E /* AppDelegate.swift */,
+				D5089C97206B730700D2DC3E /* ViewController.swift */,
+				D5089C99206B730700D2DC3E /* Main.storyboard */,
+				D5089C9C206B730700D2DC3E /* Assets.xcassets */,
+				D5089C9E206B730700D2DC3E /* LaunchScreen.storyboard */,
+				D5089CA1206B730700D2DC3E /* Info.plist */,
+			);
+			path = CoolShirtz;
+			sourceTree = "<group>";
+		};
+		D5089CA9206B730700D2DC3E /* CoolShirtzTests */ = {
+			isa = PBXGroup;
+			children = (
+				D5089CAA206B730700D2DC3E /* CoolShirtzTests.swift */,
+				D5089CAC206B730700D2DC3E /* Info.plist */,
+			);
+			path = CoolShirtzTests;
+			sourceTree = "<group>";
+		};
+		D5089CB4206B730700D2DC3E /* CoolShirtzUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D5089CB5206B730700D2DC3E /* CoolShirtzUITests.swift */,
+				D5089CB7206B730700D2DC3E /* Info.plist */,
+			);
+			path = CoolShirtzUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D5089C91206B730700D2DC3E /* CoolShirtz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5089CBA206B730700D2DC3E /* Build configuration list for PBXNativeTarget "CoolShirtz" */;
+			buildPhases = (
+				D5089C8E206B730700D2DC3E /* Sources */,
+				D5089C8F206B730700D2DC3E /* Frameworks */,
+				D5089C90206B730700D2DC3E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoolShirtz;
+			productName = CoolShirtz;
+			productReference = D5089C92206B730700D2DC3E /* CoolShirtz.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D5089CA5206B730700D2DC3E /* CoolShirtzTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5089CBD206B730700D2DC3E /* Build configuration list for PBXNativeTarget "CoolShirtzTests" */;
+			buildPhases = (
+				D5089CA2206B730700D2DC3E /* Sources */,
+				D5089CA3206B730700D2DC3E /* Frameworks */,
+				D5089CA4206B730700D2DC3E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D5089CA8206B730700D2DC3E /* PBXTargetDependency */,
+			);
+			name = CoolShirtzTests;
+			productName = CoolShirtzTests;
+			productReference = D5089CA6206B730700D2DC3E /* CoolShirtzTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D5089CB0206B730700D2DC3E /* CoolShirtzUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5089CC0206B730700D2DC3E /* Build configuration list for PBXNativeTarget "CoolShirtzUITests" */;
+			buildPhases = (
+				D5089CAD206B730700D2DC3E /* Sources */,
+				D5089CAE206B730700D2DC3E /* Frameworks */,
+				D5089CAF206B730700D2DC3E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D5089CB3206B730700D2DC3E /* PBXTargetDependency */,
+			);
+			name = CoolShirtzUITests;
+			productName = CoolShirtzUITests;
+			productReference = D5089CB1206B730700D2DC3E /* CoolShirtzUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D5089C8A206B730700D2DC3E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Nick Moignard";
+				TargetAttributes = {
+					D5089C91206B730700D2DC3E = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					D5089CA5206B730700D2DC3E = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D5089C91206B730700D2DC3E;
+					};
+					D5089CB0206B730700D2DC3E = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D5089C91206B730700D2DC3E;
+					};
+				};
+			};
+			buildConfigurationList = D5089C8D206B730700D2DC3E /* Build configuration list for PBXProject "CoolShirtz" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D5089C89206B730700D2DC3E;
+			productRefGroup = D5089C93206B730700D2DC3E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D5089C91206B730700D2DC3E /* CoolShirtz */,
+				D5089CA5206B730700D2DC3E /* CoolShirtzTests */,
+				D5089CB0206B730700D2DC3E /* CoolShirtzUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D5089C90206B730700D2DC3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5089CA0206B730700D2DC3E /* LaunchScreen.storyboard in Resources */,
+				D5089C9D206B730700D2DC3E /* Assets.xcassets in Resources */,
+				D5089C9B206B730700D2DC3E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5089CA4206B730700D2DC3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5089CAF206B730700D2DC3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D5089C8E206B730700D2DC3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5089C98206B730700D2DC3E /* ViewController.swift in Sources */,
+				D5089C96206B730700D2DC3E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5089CA2206B730700D2DC3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5089CAB206B730700D2DC3E /* CoolShirtzTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5089CAD206B730700D2DC3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5089CB6206B730700D2DC3E /* CoolShirtzUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D5089CA8206B730700D2DC3E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D5089C91206B730700D2DC3E /* CoolShirtz */;
+			targetProxy = D5089CA7206B730700D2DC3E /* PBXContainerItemProxy */;
+		};
+		D5089CB3206B730700D2DC3E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D5089C91206B730700D2DC3E /* CoolShirtz */;
+			targetProxy = D5089CB2206B730700D2DC3E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D5089C99206B730700D2DC3E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5089C9A206B730700D2DC3E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D5089C9E206B730700D2DC3E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5089C9F206B730700D2DC3E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D5089CB8206B730700D2DC3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D5089CB9206B730700D2DC3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D5089CBB206B730700D2DC3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CoolShirtz/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nlm.CoolShirtz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D5089CBC206B730700D2DC3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CoolShirtz/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nlm.CoolShirtz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D5089CBE206B730700D2DC3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CoolShirtzTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nlm.CoolShirtzTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoolShirtz.app/CoolShirtz";
+			};
+			name = Debug;
+		};
+		D5089CBF206B730700D2DC3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CoolShirtzTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nlm.CoolShirtzTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoolShirtz.app/CoolShirtz";
+			};
+			name = Release;
+		};
+		D5089CC1206B730700D2DC3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CoolShirtzUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nlm.CoolShirtzUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CoolShirtz;
+			};
+			name = Debug;
+		};
+		D5089CC2206B730700D2DC3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CoolShirtzUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nlm.CoolShirtzUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CoolShirtz;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D5089C8D206B730700D2DC3E /* Build configuration list for PBXProject "CoolShirtz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5089CB8206B730700D2DC3E /* Debug */,
+				D5089CB9206B730700D2DC3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5089CBA206B730700D2DC3E /* Build configuration list for PBXNativeTarget "CoolShirtz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5089CBB206B730700D2DC3E /* Debug */,
+				D5089CBC206B730700D2DC3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5089CBD206B730700D2DC3E /* Build configuration list for PBXNativeTarget "CoolShirtzTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5089CBE206B730700D2DC3E /* Debug */,
+				D5089CBF206B730700D2DC3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5089CC0206B730700D2DC3E /* Build configuration list for PBXNativeTarget "CoolShirtzUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5089CC1206B730700D2DC3E /* Debug */,
+				D5089CC2206B730700D2DC3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D5089C8A206B730700D2DC3E /* Project object */;
+}
