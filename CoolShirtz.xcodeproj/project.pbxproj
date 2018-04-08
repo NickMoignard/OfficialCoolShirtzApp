@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		819F28B6E816A4E349B0097B /* Pods_CoolShirtzUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 668CE5B5944A6EE5CD5B2201 /* Pods_CoolShirtzUITests.framework */; };
+		B45CC0E4A8465F33ECC666F0 /* Pods_CoolShirtz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3174160E6C4561B645FF873 /* Pods_CoolShirtz.framework */; };
 		D5089C96206B730700D2DC3E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5089C95206B730700D2DC3E /* AppDelegate.swift */; };
 		D5089C98206B730700D2DC3E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5089C97206B730700D2DC3E /* ViewController.swift */; };
 		D5089C9B206B730700D2DC3E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5089C99206B730700D2DC3E /* Main.storyboard */; };
@@ -14,6 +16,8 @@
 		D5089CA0206B730700D2DC3E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5089C9E206B730700D2DC3E /* LaunchScreen.storyboard */; };
 		D5089CAB206B730700D2DC3E /* CoolShirtzTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5089CAA206B730700D2DC3E /* CoolShirtzTests.swift */; };
 		D5089CB6206B730700D2DC3E /* CoolShirtzUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5089CB5206B730700D2DC3E /* CoolShirtzUITests.swift */; };
+		D5089CC4206BC2F400D2DC3E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D5089CC3206BC2F400D2DC3E /* GoogleService-Info.plist */; };
+		DB423DEDC275D8312D84979B /* Pods_CoolShirtzTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DA93DD55F6EF5C18D499B28 /* Pods_CoolShirtzTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0F478DAE5FD0EAEB9A0EC398 /* Pods-CoolShirtzTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoolShirtzTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CoolShirtzTests/Pods-CoolShirtzTests.release.xcconfig"; sourceTree = "<group>"; };
+		1AA6CD612F481B2FF9DCA959 /* Pods-CoolShirtzUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoolShirtzUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CoolShirtzUITests/Pods-CoolShirtzUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1BDBCC4B452D32AD77CCB079 /* Pods-CoolShirtzTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoolShirtzTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CoolShirtzTests/Pods-CoolShirtzTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2DA93DD55F6EF5C18D499B28 /* Pods_CoolShirtzTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CoolShirtzTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		668CE5B5944A6EE5CD5B2201 /* Pods_CoolShirtzUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CoolShirtzUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		817E020E94FD5899A7310F71 /* Pods-CoolShirtz.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoolShirtz.release.xcconfig"; path = "Pods/Target Support Files/Pods-CoolShirtz/Pods-CoolShirtz.release.xcconfig"; sourceTree = "<group>"; };
+		AC517669D69BF93FD3BEF809 /* Pods-CoolShirtzUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoolShirtzUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CoolShirtzUITests/Pods-CoolShirtzUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D29E9BD40CD82E7D6F731E2B /* Pods-CoolShirtz.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoolShirtz.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CoolShirtz/Pods-CoolShirtz.debug.xcconfig"; sourceTree = "<group>"; };
 		D5089C92206B730700D2DC3E /* CoolShirtz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoolShirtz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5089C95206B730700D2DC3E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D5089C97206B730700D2DC3E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +59,9 @@
 		D5089CB1206B730700D2DC3E /* CoolShirtzUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoolShirtzUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5089CB5206B730700D2DC3E /* CoolShirtzUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoolShirtzUITests.swift; sourceTree = "<group>"; };
 		D5089CB7206B730700D2DC3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5089CC3206BC2F400D2DC3E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D5089CC5206BC33A00D2DC3E /* CoolShirtz.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CoolShirtz.entitlements; sourceTree = "<group>"; };
+		E3174160E6C4561B645FF873 /* Pods_CoolShirtz.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CoolShirtz.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B45CC0E4A8465F33ECC666F0 /* Pods_CoolShirtz.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB423DEDC275D8312D84979B /* Pods_CoolShirtzTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +85,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				819F28B6E816A4E349B0097B /* Pods_CoolShirtzUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6A90E57E3B0E081EC94E70C6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E3174160E6C4561B645FF873 /* Pods_CoolShirtz.framework */,
+				2DA93DD55F6EF5C18D499B28 /* Pods_CoolShirtzTests.framework */,
+				668CE5B5944A6EE5CD5B2201 /* Pods_CoolShirtzUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		912B96716F2E6C1E61C0F399 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D29E9BD40CD82E7D6F731E2B /* Pods-CoolShirtz.debug.xcconfig */,
+				817E020E94FD5899A7310F71 /* Pods-CoolShirtz.release.xcconfig */,
+				1BDBCC4B452D32AD77CCB079 /* Pods-CoolShirtzTests.debug.xcconfig */,
+				0F478DAE5FD0EAEB9A0EC398 /* Pods-CoolShirtzTests.release.xcconfig */,
+				1AA6CD612F481B2FF9DCA959 /* Pods-CoolShirtzUITests.debug.xcconfig */,
+				AC517669D69BF93FD3BEF809 /* Pods-CoolShirtzUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		D5089C89206B730700D2DC3E = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +122,8 @@
 				D5089CA9206B730700D2DC3E /* CoolShirtzTests */,
 				D5089CB4206B730700D2DC3E /* CoolShirtzUITests */,
 				D5089C93206B730700D2DC3E /* Products */,
+				912B96716F2E6C1E61C0F399 /* Pods */,
+				6A90E57E3B0E081EC94E70C6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +140,14 @@
 		D5089C94206B730700D2DC3E /* CoolShirtz */ = {
 			isa = PBXGroup;
 			children = (
+				D5089CC5206BC33A00D2DC3E /* CoolShirtz.entitlements */,
 				D5089C95206B730700D2DC3E /* AppDelegate.swift */,
 				D5089C97206B730700D2DC3E /* ViewController.swift */,
 				D5089C99206B730700D2DC3E /* Main.storyboard */,
 				D5089C9C206B730700D2DC3E /* Assets.xcassets */,
 				D5089C9E206B730700D2DC3E /* LaunchScreen.storyboard */,
 				D5089CA1206B730700D2DC3E /* Info.plist */,
+				D5089CC3206BC2F400D2DC3E /* GoogleService-Info.plist */,
 			);
 			path = CoolShirtz;
 			sourceTree = "<group>";
@@ -132,9 +177,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D5089CBA206B730700D2DC3E /* Build configuration list for PBXNativeTarget "CoolShirtz" */;
 			buildPhases = (
+				8D3960135AD3B8D8ACADA795 /* [CP] Check Pods Manifest.lock */,
 				D5089C8E206B730700D2DC3E /* Sources */,
 				D5089C8F206B730700D2DC3E /* Frameworks */,
 				D5089C90206B730700D2DC3E /* Resources */,
+				E46C31B6FE7E1C8825C3F236 /* [CP] Embed Pods Frameworks */,
+				12BF2FD6772B5D98F43CC657 /* [CP] Copy Pods Resources */,
+				D5545215207A154400977443 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -149,9 +198,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D5089CBD206B730700D2DC3E /* Build configuration list for PBXNativeTarget "CoolShirtzTests" */;
 			buildPhases = (
+				C63ADFEDC8D3B3F1B62E0921 /* [CP] Check Pods Manifest.lock */,
 				D5089CA2206B730700D2DC3E /* Sources */,
 				D5089CA3206B730700D2DC3E /* Frameworks */,
 				D5089CA4206B730700D2DC3E /* Resources */,
+				E889833A8702C9285709D1B3 /* [CP] Embed Pods Frameworks */,
+				7FC20233E8F3CFAE7A071E81 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +219,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D5089CC0206B730700D2DC3E /* Build configuration list for PBXNativeTarget "CoolShirtzUITests" */;
 			buildPhases = (
+				F725816967D92B94BB1292A7 /* [CP] Check Pods Manifest.lock */,
 				D5089CAD206B730700D2DC3E /* Sources */,
 				D5089CAE206B730700D2DC3E /* Frameworks */,
 				D5089CAF206B730700D2DC3E /* Resources */,
+				41112EB03C7206822D8310A1 /* [CP] Embed Pods Frameworks */,
+				130EC81C0E8CF6E2459CC525 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -194,6 +249,14 @@
 					D5089C91206B730700D2DC3E = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 					D5089CA5206B730700D2DC3E = {
 						CreatedOnToolsVersion = 9.2;
@@ -233,6 +296,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D5089CA0206B730700D2DC3E /* LaunchScreen.storyboard in Resources */,
+				D5089CC4206BC2F400D2DC3E /* GoogleService-Info.plist in Resources */,
 				D5089C9D206B730700D2DC3E /* Assets.xcassets in Resources */,
 				D5089C9B206B730700D2DC3E /* Main.storyboard in Resources */,
 			);
@@ -253,6 +317,173 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		12BF2FD6772B5D98F43CC657 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CoolShirtz/Pods-CoolShirtz-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		130EC81C0E8CF6E2459CC525 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CoolShirtzUITests/Pods-CoolShirtzUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		41112EB03C7206822D8310A1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CoolShirtzUITests/Pods-CoolShirtzUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7FC20233E8F3CFAE7A071E81 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CoolShirtzTests/Pods-CoolShirtzTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8D3960135AD3B8D8ACADA795 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CoolShirtz-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C63ADFEDC8D3B3F1B62E0921 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CoolShirtzTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D5545215207A154400977443 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Fabric/run\" 21879045719d8605b214835a6ec879d404b9fd42 3ae76a0a5948badbc365ffab63183f5dc72b16901408a0e7a9449d819a4175fb";
+		};
+		E46C31B6FE7E1C8825C3F236 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CoolShirtz/Pods-CoolShirtz-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CoolShirtz/Pods-CoolShirtz-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E889833A8702C9285709D1B3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CoolShirtzTests/Pods-CoolShirtzTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F725816967D92B94BB1292A7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CoolShirtzUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D5089C8E206B730700D2DC3E /* Sources */ = {
@@ -424,9 +655,12 @@
 		};
 		D5089CBB206B730700D2DC3E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D29E9BD40CD82E7D6F731E2B /* Pods-CoolShirtz.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = CoolShirtz/CoolShirtz.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9FZ68P2768;
 				INFOPLIST_FILE = CoolShirtz/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = nlm.CoolShirtz;
@@ -438,9 +672,12 @@
 		};
 		D5089CBC206B730700D2DC3E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 817E020E94FD5899A7310F71 /* Pods-CoolShirtz.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = CoolShirtz/CoolShirtz.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9FZ68P2768;
 				INFOPLIST_FILE = CoolShirtz/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = nlm.CoolShirtz;
@@ -452,6 +689,7 @@
 		};
 		D5089CBE206B730700D2DC3E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BDBCC4B452D32AD77CCB079 /* Pods-CoolShirtzTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -468,6 +706,7 @@
 		};
 		D5089CBF206B730700D2DC3E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F478DAE5FD0EAEB9A0EC398 /* Pods-CoolShirtzTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -484,6 +723,7 @@
 		};
 		D5089CC1206B730700D2DC3E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1AA6CD612F481B2FF9DCA959 /* Pods-CoolShirtzUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -499,6 +739,7 @@
 		};
 		D5089CC2206B730700D2DC3E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC517669D69BF93FD3BEF809 /* Pods-CoolShirtzUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
